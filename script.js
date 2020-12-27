@@ -1,14 +1,4 @@
-// var a = Date.parse("march 21, 1998");
-// var b = new Date()
-// console.log(b);
-
-
-// var binary = ;
-// alert(parseInt(binary, 2))
-//Not yet fully understood parseInt yet but
-
-//Challenge 1
- function personDays(age) {
+/*function personDays(age) {
     var now = new Date();
     var begin= new Date();
     begin.setFullYear((now.getFullYear()-age))
@@ -17,8 +7,19 @@
     var day = Math.floor(diff / oneDay);
     return day ;
     }
+		console.log(personDays(22)); */
 
-		console.log(personDays(22));
+// var binary = ;
+// alert(parseInt(binary, 2))
+//Not yet fully understood parseInt yet but
+
+//Challenge 1
+function calcAge(age){
+    const  ageIn =  age * 365;
+return ageIn;}
+console.log(calcAge(25));
+
+
 
 		//challenge 2
 
